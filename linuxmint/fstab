@@ -1,0 +1,2 @@
+# Add noatime and nodiratime to /etc/fstab
+UUID=acccc67f-6c32-4f63-8647-0f784949cfa7 /               ext4    errors=remount-ro,noatime,nodiratime 0       1
