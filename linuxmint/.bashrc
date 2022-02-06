@@ -121,7 +121,12 @@ fi
 export M2_HOME=/home/gaszabo/devtools/apache-maven-3.6.3
 export PATH=$M2_HOME/bin:$PATH
 
-export JAVA_HOME=/usr/lib/jvm/jdk-14.0.2
+export JAVA_HOME=/usr/lib/jvm/adoptopenjdk-16-openj9-amd64
 export PATH=$JAVA_HOME/bin:$PATH
 
+export GRADLE_HOME=/home/gaszabo/devtools/gradle
+export PATH=$GRADLE_HOME/bin:$PATH
+
 export PATH=/home/gaszabo/.npm-global/bin:$PATH
+
+export PATH=/home/gaszabo/devtools/scilab/bin:$PATH
