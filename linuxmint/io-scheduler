@@ -1,0 +1,2 @@
+# none io scheduler is suitable for NVMe
+sudo echo none | sudo tee /sys/block/sda/queue/scheduler
